@@ -10,6 +10,12 @@ console.log("hello");
 // git push            # Upload to GitHub
 // git pull            # Download latest changes
 
+//index.js me changes krne k baad push krne ka method 
+// git status
+// git add .
+// git commit -m "Meaningful message"
+// git push
+
 // function sum(a,b){
 //     return a+b;
 // }
