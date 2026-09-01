@@ -1,4 +1,4 @@
-console.log("hello");
+// console.log("hello");l
 //git init for initialising git 
 //git branch -M main --> branch ka name main rkhne k liye
 //git add . --> for adding new file
@@ -99,3 +99,68 @@ console.log("hello");
 // }
 
 // loginhandler("sahil","2121",login)
+
+
+// console.log("one");
+// setTimeout(()=>{console.log("Two");});
+// console.log("Three");
+
+
+const container =document.getElementById("container");
+const button =document.querySelector("button");
+// console.log(container);
+// console.log(button);
+
+const h1 = document.createElement("h1");
+console.log(h1);
+h1.innerHTML("abes Engineering College");
+function ping(){
+            //alert("server ping");
+            container.innerHTML="";
+
+            const img = document.createElement("img");
+            img.src = "Profile.jpg";
+            img.alt = "Mohd Sahil";
+            img.width = 150;
+            img.height = 150;
+            
+            const h1 = document.createElement("h1");
+            h1.innerText = "Mohd Sahil";
+
+            const role = document.createElement("p");
+            role.innerText = "Abes Enginnering College";
+
+            const about = document.createElement("h2");
+            about.innerText = "About me";
+
+            const aboutme = document.createElement("p");
+            aboutme.innerText = "I'm Doing Computer Science Engineering And Interested In Web Development";
+
+            const education = document.createElement("h2");
+            education.innerText = "Education"
+
+            const educationtext = document.createElement("p");
+            educationtext.innerHTML = '<strong>Btech-Computer Science Engineering</strong><br>Abes Engineering College';
+
+
+            container.appendChild(img);
+            container.appendChild(h1);
+            container.appendChild(role);
+            container.appendChild(about);
+            container.appendChild(aboutme);
+            container.appendChild(education);
+            container.appendChild(educationtext);
+            button.style.display="none";
+
+
+
+
+
+
+
+
+
+
+
+        }
+button.addEventListener("click" , ping);
